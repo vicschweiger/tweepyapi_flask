@@ -1,4 +1,7 @@
 :root {
     --open_sans: "Open Sans", sans-serif;
     --roboto: "Roboto", sans-serif;
+
+    --branco: #ffffff;
+    --preto: #000000;
 }
