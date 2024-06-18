@@ -1,0 +1,45 @@
+.index {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 12rem 8rem;
+}
+
+.index h2 {
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.index label {
+    font-family: var(--open_sans);
+    font-size: 1.5rem;
+}
+
+.index input[type="number"]{
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+
+.index input[type="text"] {
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+
+.index img {
+    width: 2rem;
+}
+
+.index button {
+    display: flex;
+    background-color: var(--branco);
+    border: 1px solid var(--cinza);
+    border-radius: 5px;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 1.75rem;
+}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Resultados da Pesquisa{% endblock %}
+
+{% block content %}
+<h2>Resultados da Pesquisa para "{{ query }}"</h2>
+<ul>
+    {% for result in results %}
+        <li><strong>{{ result.user }}:</strong> {{ result.text }}</li>
+    {% endfor %}
+</ul>
+<a href="{{ url_for('index') }}">Voltar à Pesquisa</a>
+{% endblock %}
